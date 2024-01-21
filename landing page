@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Trebuchet MS', serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://m.media-amazon.com/images/I/71DpSOZlpqL._AC_UF1000,1000_QL80_.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff; 
+            height: 100vh;
+        }
+
+        header {
+            background-color: #5e2a02;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            height: 100vh; 
+            overflow: hidden;
+        }
+
+        .background-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .background-content {
+            max-width: 50%; 
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-container {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item {
+            border: 5px solid #ccc;
+            padding: 5px;
+            border-radius: 10px;
+            max-height: 400px; 
+            background-color: rgb(60, 60, 60, 0.8); 
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%; 
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .cta {
+            background-color: #5e2a02;
+            padding: 100px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <title>Cafe Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-family:Garamond;">START YOUR DAY WITH OUR COFFEE.</h1>
+        <p>Enjoy the perfect blend of flavors</p>
+    </header>
+
+    <main>
+        <div class="background-container">
+            <div class="background-content">
+                <h2>Welcome to Cafe House!</h2>
+                <p>Discover a world of delightful flavors.</p>
+            </div>
+        </div>
+
+        
+        <div class="menu-container">
+            <section class="menu-item">
+                <img src="https://t4.ftcdn.net/jpg/05/82/52/39/360_F_582523946_RakiLG89ObtVrIlFPPxTb1yqHUAH1CPC.webp" height="200;" width="300;" alt="Special Coffee Blend Image">
+                <h2 style="color:white;">Special Coffee Blend</h2>
+                <p style="color:white;">A unique blend of coffee beans to tantalize your taste buds.</p>
+            </section>
+
+            <section class="menu-item">
+                <img src="https://cdn.winsightmedia.com/platform/files/public/2019-04/background/milkshakes-shutterstock_1556058107.jpg?VersionId=nFu6u7VwFQU8DRjsCFx7uVqaAlD4ek_4"  height="200;" width="300;"alt="Signature Dessert Image">
+                <h2 style="color:white;">Signature Dessert</h2>
+                <p style="color:white;">Indulge in our chef's special dessert with heavenly sweetness.</p>
+            </section>
+
+            <section class="menu-item">
+                <img src="https://img.freepik.com/premium-photo/plate-food-with-hamburger-french-fries-it_899945-225.jpg"  height="200;" width="300;"alt="Delicious Snack Image">
+                <h2 style="color:white;">Delicious Snack</h2>
+                <p style="color:white;">Savor the flavor of our delightful snacks that will keep you coming back for more.</p>
+            </section>
+        </div>
+    </main>
+
+    <section class="cta">
+        <h2>Ready to Sip?</h2>
+        <p>Visit us today and experience the warmth of our cafe!</p>
+        <button>Order Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cafe House. All rights reserved.</p>
+    </footer>
+</body>
+</html
