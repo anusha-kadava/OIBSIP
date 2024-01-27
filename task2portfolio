@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>K.ANUSHA - Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0f0f;
+            background-image: url("https://diversityq-production.s3.amazonaws.com/uploads/2020/06/AdobeStock_314348719.jpeg");
+            background-size: cover;
+            background-attachment: fixed; 
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(128, 110, 110, 0.8);
+        }
+
+        h1 {
+            font-family: Garamond;
+            color: #ffffff; 
+            background-color: #2b0202;
+            padding: 10px; 
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        p {
+            font-family: Lucida Bright;
+            color: #ffffff;
+        }
+
+        nav ul {
+            style=color:white;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        section#about {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(60, 60, 60, 0.8); 
+            color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        section#skills {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(60, 60, 60, 0.8); 
+            color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        section#projects {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(60, 60, 60, 0.8); 
+            color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+
+        section#contact {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(60, 60, 60, 0.8); 
+            color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid">
+        <h1 style="font-family:Garamond;">K.Anusha</h1>
+        <p style="font-family:Garamond;">Web Developer | Designer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about" style="color:orange;"> About </a></li>
+            <li><a href="#skills" style="color:orange;">Skills</a></li>
+            <li><a href="#projects" style="color:orange;">Projects</a></li>
+            <li><a href="#contact" style="color:orange;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2 style="font-family:Garamond;">About Me</h2>
+        <p class="project" style="font-family:Garamond;">Hello, I am Anusha, My hometown is Khammam, located in the state of Telangana. Currently pursuing a B.Tech in Computer Science and Engineering at GITAM University in Visakhapatnam. I received my early education at Srichaitanya Techno School and completed my intermediate education at Narayana Junior College in Hyderabad. My Career Objective is to seek an entry-level position to begin my career in a well-developed environment and use my skills as a part of the organization.</p>
+    </section>
+
+    <section id="skills">
+        <h2 style="font-family:Garamond;">Skills</h2>
+        <p class="project" style="font-family:Garamond;">HTML, CSS, JavaScript, Java, Bootstrap</p>
+    </section>
+
+    <section id="projects">
+        <h2 style="font-family:Garamond;">Projects</h2>
+        <p class="project" style="font-family:Garamond;">Certification in Java programming language. <br>Coursera guided projects.</p>
+    </section>
+
+    <section id="contact">
+        <h2 style="font-family:Garamond;">Contact</h2>
+        <p class="project" style="font-family:Garamond;">anushakadava492004@gmail.com <br>9036464122</p>
+    </section>
+</body>
+</html>
